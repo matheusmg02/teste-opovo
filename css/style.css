@@ -1,0 +1,16 @@
+.cabecalho {
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  background-color: blue;
+  padding: 20px;
+}
+
+.cabecalho-menu {
+  display: flex;
+  gap: 15px;
+}
+
+/* .conteudo-principal {
+  padding: 127px 490px;
+} */
