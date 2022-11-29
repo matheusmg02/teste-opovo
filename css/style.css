@@ -1,9 +1,15 @@
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .cabecalho {
   display: flex;
   justify-content: space-around;
   color: white;
-  background-color: blue;
+  background-color: #0079C1;
   padding: 20px;
+  margin-bottom: 50px;
 }
 
 .cabecalho-menu {
@@ -11,6 +17,66 @@
   gap: 15px;
 }
 
-/* .conteudo-principal {
-  padding: 127px 490px;
-} */
+.link-voltar {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 50px;
+  margin-left: 490px;
+}
+
+.link-voltar img{
+  width: 15px;
+  height: 15px;
+}
+
+.titulo-container-section {
+  margin-bottom: 35px;
+}
+
+.subtitulo-container-section {
+  margin-bottom: 30px;
+}
+
+.info-funcao {
+  margin-bottom: 30px;
+}
+
+.info-funcao h3 {
+  margin-bottom: 10px;
+}
+
+.conteudo-principal {
+  display: flex;
+  justify-content: center;
+
+  margin-top: 50px;
+  gap: 160px;
+}
+
+.container-funcao {
+  display: flex;
+  flex-direction: column;
+
+  width: 490px;
+}
+
+.img-principal {
+  display: flex;
+  justify-content: right;
+  background-color: #2D3C59;
+  width: 290px;
+  height: 1590px;
+}
+
+.img-principal > img {
+  width: 390px;
+  height: 390px;
+  margin-top: 460px;
+}
+
+.Formulario-Curriculo {
+  width: 490px;
+
+}
+
