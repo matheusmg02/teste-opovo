@@ -99,12 +99,12 @@ button {
   color: #314163;
 }
 
-.info-funcao > h3 {
+.info-funcao h3 {
   font-size: 22px;
   color: #314163;
 }
 
-.info-funcao > p {
+.info-funcao p {
   font-size: 19px;
   text-align: left;
   color: #314163;
