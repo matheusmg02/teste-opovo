@@ -5,77 +5,118 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>OPOVO</title>
-  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/reset.css">  
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <header class="cabecalho">
-    <span class="logo-cabecalho">OPOVO online</span>
+    <img src="imagens/opovoonline.png" alt="">
     <nav class="cabecalho-menu">
-        <a>Sobre</a>
-        <a>Vídeo</a>
-        <a>Propósito</a>
-        <a>Diversidade</a>
-        <a>Valores</a>
-        <a>Áreas de Atuação</a>
-        <a>Depoimentos</a>
-        <a>Vagas</a>
+        <a href="/">Sobre</a>
+        <a href="/">Vídeo</a>
+        <a href="/">Propósito</a>
+        <a href="/">Diversidade</a>
+        <a href="/">Valores</a>
+        <a href="/">Áreas de Atuação</a>
+        <a href="/">Depoimentos</a>
+        <a href="/">Vagas</a>
     </nav>
   </header>
 
-  <main class="conteudo-principal">
-    <div class="link-voltar">
-      <img src="imagens/Arrow 1.svg" alt="">
-      <a href="">Voltar</a>
+  <main class="principal">
+    <div class="conteudo-principal">
+      <div class="link-voltar">
+        <a href=""><img src="imagens/Arrow 1.svg" alt=""></a>
+        <a href="">Voltar</a>
+      </div>
+      <section class="container-funcao">
+          <h1 class="titulo-container-section">Vagas</h1>
+          <h2 class="subtitulo-container-section">Consultor de negócios - Vendas Publicidade</h2>
+          <div class="info-funcao">
+            <h3>Requisitos</h3>
+            <p>Graduação em Marketing ou Publicidade e Propaganda. Experiência com Vendas. Conhecimentos de gestão de indicadores, negociação e informática.</p>
+          </div>
+          <div class="info-funcao">
+            <h3>Atividades</h3>
+            <p>Planejamento de vendas, visitas a clientes, desenvolvimento de propostas comerciais e plano de mídias, acompanhamento de indicadores e elaboração de orçamentos.</p>
+          </div>
+          <div class="info-funcao">
+            <h3>Perfil do candidato</h3>
+            <p>Comunicativo, negociador, ágil e responsável.</p>
+          </div>
+          <div class="info-funcao">
+            <h3>Horário de trabalho</h3>
+            <p>8 - 18h</p>
+          </div>
+          <form action="" class="formulario-container">
+            <fieldset>
+              <div class="curriculo">
+
+                <h2>Envie seu currículo</h2>
+                <div class="campo-formulario-grande">
+                  <label for="">Nome</label>
+                  <input id="nome" type="text">
+                </div>
+                
+                <div class="campo-formulario-grande">
+                  <label for="">E-mail</label>
+                  <input id="email" type="email">
+                </div>
+
+                <div class="campo-formulario-grande">
+                  <label for="">Cep</label>
+                  <input id="cep" type="text">
+                </div>
+
+                <div class="campo-formulario-grande">
+                  <label for="">Endereço</label>
+                  <input id="endereco" type="text">
+                </div>
+
+                <div class="formulario-pequeno">
+                  <div class="campo-formulario-pequeno">
+                    <label for="">Número</label>
+                    <input id="numero" type="text">
+                  </div>
+                  <div class="campo-formulario-pequeno">
+                    <label for="">Bairro</label>
+                    <input id="bairro" type="text">
+                  </div>
+                  <div class="campo-formulario-pequeno">
+                    <label for="">Cidade</label>
+                    <input id="cidade" type="text">
+                  </div>
+                  <div class="campo-formulario-pequeno">
+                    <label for="">Estado</label>
+                    <input id="estado" type="text">
+                  </div>
+                </div>
+              </div>
+
+              <div class="anexar-curriculo">
+                <label for="">Currículo</label>
+                <button class="botao-anexar">Anexar Currículo</button>
+                <div class="exigencias-curriculo">
+                  <p>Todos os campos são obrigatórios</p>
+                  <p>Tamanho máximo para upload - 10mb</p>
+                  <p>Tipo do arquivo: .pdf ou .doc</p>
+                </div>
+              </div>
+            </fieldset>
+            <button class="botao-submit">Enviar Currículo</button>
+          </form>
+      </section>
     </div>
-    <section class="container-funcao">
-      <h1>Vagas</h1>
-      <h2>Consultor de negócios - Vendas Publicidade</h2>
-      <div class="info-funcao">
-        <h3>Requisitos</h3>
-        <p>Graduação em Marketing ou Publicidade e Propaganda. Experiência com Vendas. Conhecimentos de gestão de indicadores, negociação e informática.</p>
-      </div>
-      <div class="info-funcao">
-        <h3>Atividades</h3>
-        <p>Planejamento de vendas, visitas a clientes, desenvolvimento de propostas comerciais e plano de mídias, acompanhamento de indicadores e elaboração de orçamentos.</p>
-      </div>
-      <div class="info-funcao">
-        <h3>Perfil do candidato</h3>
-        <p>Comunicativo, negociador, ágil e responsável.</p>
-      </div>
-      <div class="info-funcao">
-        <h3>Horário de trabalho</h3>
-        <p>8 - 18h</p>
-      </div>
-      <form action="">
-        <fieldset>
-          <h2>Envie seu currículo</h2>
-          <label for="">Nome</label>
-          <input type="text">
-          <label for="">E-mail</label>
-          <input type="text">
-          <label for="">Cep</label>
-          <input type="text">
-          <label for="">Endereço</label>
-          <input type="text">
-          <label for="">Número</label>
-          <input type="text">
-          <label for="">Bairro</label>
-          <input type="text">
-          <label for="">Cidade</label>
-          <input type="text">
-          <label for="">Estado</label>
-          <input type="text">
-          <label for="">Currículo</label>
-          <button>Anexar Currículo</button>
-          <p>Todos os campos são obrigatórios</p>
-          <p>Tamanho máximo para upload - 10mb</p>
-          <p>Tipo do arquivo: .pdf ou .doc</p>
-        </fieldset>
-        <button>Enviar Currículo</button>
-      </form>
-    </section>
-    <img src="imagens/vagas-01-01.png" alt="">
+    <div class="img-principal">
+      <img src="imagens/vagas-01-01.png" alt="">
+    </div>
   </main>
+
+  <footer class="rodape">
+    <img src="imagens/opovoonline.png" alt="">
+    <span>Copyright &copy; 1997-2016</span>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>

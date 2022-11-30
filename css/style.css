@@ -1,9 +1,63 @@
+@font-face{
+  font-family: Oswald;
+  src: url(/fonts/Oswald-Regular_0.ttf);
+}
+
+@font-face {
+  font-family: ptf55f;
+  src: url(/fonts/PTF55F.ttf);
+}
+
+body {
+  font-family: Oswald;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+fieldset {
+  border: 1px solid #314163;
+  border-radius: 4px;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  margin-bottom: 20px;
+ }
+
+label {
+  display: block;
+}
+
+input {
+  background-color: #E8F8FF;
+  border: 0.5px solid #314163;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+input:focus {
+  outline: 0;
+}
+
+button {
+  border: 0;
+  cursor: pointer;
+}
+
 .cabecalho {
   display: flex;
   justify-content: space-around;
-  color: white;
-  background-color: blue;
+  align-items: center;
+  color: #FFF;
+  background-color: #0079C1;
   padding: 20px;
+  margin-bottom: 50px;
 }
 
 .cabecalho-menu {
@@ -11,6 +65,205 @@
   gap: 15px;
 }
 
-/* .conteudo-principal {
-  padding: 127px 490px;
-} */
+.link-voltar {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin: 50px 0;
+  font-size: 20px;
+  color: #314163;
+}
+
+.link-voltar img{
+  width: 15px;
+  height: 15px;
+}
+
+.titulo-container-section {
+  font-family: Oswald;
+  font-size: 50px;
+  margin-bottom: 5px;
+  margin-top: 10px;
+  color: #314163;
+}
+
+.subtitulo-container-section {
+  font-size: 35px;
+  color: #314163;
+}
+
+.info-funcao {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: #314163;
+}
+
+.info-funcao > h3 {
+  font-size: 22px;
+  color: #314163;
+}
+
+.info-funcao > p {
+  font-size: 19px;
+  text-align: left;
+  color: #314163;
+  font-family: ptf55f;
+}
+
+.principal {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  gap: 160px;
+  margin-bottom: 40px;
+}
+
+.conteudo-principal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container-funcao {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 490px;
+}
+
+.img-principal {
+  display: flex;
+  justify-content: right;
+  background-color: #2D3C59;
+  width: 290px;
+  height: 1200px;
+  margin-top: 127px;
+}
+
+.img-principal > img {
+  width: 390px;
+  height: 390px;
+  margin-top: 460px;
+}
+
+.formulario-container {
+  background: #E7F8FF;
+  padding: 15px;
+}
+
+.curriculo {
+  display: grid;
+  padding: 15px;
+}
+
+.curriculo h2 {
+  margin-bottom: 20px;
+  font-size: 26px;
+}
+
+.campo-formulario-grande {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.campo-formulario-grande label {
+  font-size: 22px;
+  color: #314163;
+}
+
+.campo-formulario-grande input{
+  width: 100%;
+}
+
+.formulario-pequeno {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+.campo-formulario-pequeno {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.campo-formulario-pequeno label {
+  font-size: 22px;
+  color: #314163;
+}
+
+.anexar-curriculo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  padding: 15px;
+}
+
+.anexar-curriculo label {
+  font-size: 22px;
+  color: #314163;
+}
+
+.botao-anexar {
+  grid-column: 1;
+  align-self: start;
+  padding: 15px 30px;
+  font-size: 15px;
+  background-color: #4A85AF;
+  color: #FFF;
+  font-family: inherit;
+}
+
+.botao-anexar:hover{
+  background-color: #336488;
+}
+
+.exigencias-curriculo {
+  display: flex;
+  flex-direction: column;
+}
+
+.exigencias-curriculo p {
+  font-size: 14px;
+}
+
+.botao-submit {
+  display: block;
+  margin: 0 0 0 auto;
+  background-color: #314163;
+  color: #FFF;
+  padding: 16px 32px;
+  font-family: inherit;
+}
+
+.botao-submit:hover{
+  background-color: #395180;
+}
+
+.rodape {
+  background-color: #0079C1;
+  padding: 20px;
+  color: #FFF;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@media (max-width: 800px){
+  .principal{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .img-principal{
+    display: none;
+  }
+
+  .footer {
+    box-sizing: border-box;
+  }
+}
